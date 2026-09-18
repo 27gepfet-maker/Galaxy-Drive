@@ -5,11 +5,12 @@
     </head>
     <body>
         <a-scene>
-       
-      <a-sky color="#EEEEEE"></a-sky>
-<a-sky src="https://codehs.com/uploads/9f2014d33f08d838fa665b24c85d8222"
-radius="3500"
-    ></a-sky>
+
+  <a-assets>
+    <img id="sky" src="https://codehs.com/uploads/9f2014d33f08d838fa665b24c85d8222" crossorigin="anonymous">
+  </a-assets>
+
+  <a-plane src="#sky"></a-plane>
       
       
       
